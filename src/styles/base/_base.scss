@@ -1,0 +1,30 @@
+html {
+    font-size: 62.5%;
+}
+// * {
+//     padding: 1rem;
+
+// }
+
+body {
+    background: rgb(11, 14, 31);
+    // background: rgb(243, 244, 245);
+    font-family: helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    margin: 1rem;
+    padding: 1rem;
+    color: rgb(76, 136, 185);
+
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
